@@ -1,0 +1,24 @@
+
+.nav {
+    background-color: rgb(255, 169, 64);
+    padding: 20px;
+}
+
+.item a{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+transition: .3s;
+}
+
+.activeItem{
+    font-weight: 900;
+    font-size: 17px;
+    color: aquamarine;
+
+}
+
+.item a:hover {
+    font-weight: 900;
+    color: rgb(206, 206, 206);
+}

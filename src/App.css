@@ -1,0 +1,23 @@
+*{
+    text-decoration: none;
+}
+
+.app-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 1600px;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    grid-gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+Header {
+    grid-area: 1/1/2/3;
+}
+
+.app-wrapper-content{
+    background-color: rgb(130, 130, 233);
+}
